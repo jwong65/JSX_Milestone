@@ -1,0 +1,36 @@
+.hand{
+    width: 850px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 0;
+
+    position: relative;
+    top: 550px;
+    border: 1px solid black;
+    background-color: beige;
+}
+/* hand.textContent="This is your hand: Cards will appear here"
+    hand.style.width = '850px'
+    hand.style.height = '100px';
+    hand.style.display ='flex'
+    hand.style.flexDirection = 'row'
+    hand.style.alignItems = 'center'
+    //justifyContent placed all the cards in the center but I think space-evenly or space-betwen can be used
+    hand.style.justifyContent = 'space-evenly'
+    //hand.style.justifyContent ='center'
+    hand.style.zIndex= 0
+
+    hand.style.position ='relative'
+    hand.style.bottom = "250px"
+    
+    hand.setAttribute('id', 'hand')
+    //This border will be for testing
+    hand.style.border = '1px solid black'
+    hand.style.backgroundColor = 'beige'
+    
+    document.body.append(hand)
+    return hand
+     */
