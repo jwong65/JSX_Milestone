@@ -1,5 +1,5 @@
 import React from 'react'
-import './CSS/playerhand.css'
+import '../CSS/styles.css'
 
 export default function Hand() {
   return (
