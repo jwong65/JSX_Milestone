@@ -16,6 +16,15 @@ body{
     border: 1px solid black;
     background-color: beige;
 }
+.health{
+    border: 1px solid black;
+    position: relative;
+    left: 10px;
+    background-color: red;
+    z-index: 1;
+    text-align: center;
+    width: 175px;
+}
 .hand{
     width: 850px;
     height: 100px;
