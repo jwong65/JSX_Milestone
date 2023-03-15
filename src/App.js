@@ -5,7 +5,7 @@ import PlayerInfo from './components/PlayerInfo';
 
 //Importing the Pages
 import Home from './components/pages/Home';
-import Gamegit  from './components/pages/Game';
+import Game from './components/pages/Game';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
