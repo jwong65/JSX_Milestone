@@ -1,8 +1,19 @@
 import React from 'react'
 import { Nav, Navbar, Container } from 'react-bootstrap'
+import { useEffect, useState } from 'react'
 
 
 export default function NavigationBar() {
+
+const [theme, setTheme]= useState(localStorage.getItem('theme'))
+const toggleTheme =()=>{
+  if (theme==='light'){
+  setTheme('dark')
+}
+else{
+  setTheme('light')
+}}
+
   return (
     <Navbar>
         <Container>
