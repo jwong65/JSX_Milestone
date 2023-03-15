@@ -3,6 +3,7 @@
 AEA595
 AE8C71
 9A6560 Palette Colors */
+
 body{
     background-color: #9BB2A2;
 }
@@ -34,8 +35,8 @@ body{
     justify-content: space-evenly;
     z-index: 0;
 
-    position: relative;
-    top: 550px;
+    position: absolute;
+    top: 70%;
     border: 1px solid black;
     background-color: beige;
 }

@@ -1,7 +1,5 @@
 import './CSS/styles.css';
 import NavigationBar from './components/NavigationBar';
-import Hand from './components/Hand'
-import PlayerInfo from './components/PlayerInfo';
 
 //Importing the Pages
 import Home from './components/pages/Home';
@@ -22,8 +20,6 @@ function App() {
         <Route path='/game' element={<Game />} />
       </Routes>
     </Router>
-    <PlayerInfo />
-    <Hand />
   </div>
   );
 }
