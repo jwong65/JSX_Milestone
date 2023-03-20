@@ -13,15 +13,17 @@ export default function Game() {
   return (
     <div>    
         <NavigationBar />
-        <div className='opp'>
-          <OpponentInfo />
-        </div>
-        <div className='gameinfo'>
-          <GameInfo />
-        </div>
-        <div className='player'>
-          <PlayerInfo />
-          <Hand />
+        <div className='background'>
+          <div className='opp'>
+            <OpponentInfo />
+          </div>
+          <div className='gameinfo'>
+            <GameInfo />
+          </div>
+          <div className='player'>
+            <PlayerInfo />
+            <Hand />
+          </div>
         </div>
     </div>
   )

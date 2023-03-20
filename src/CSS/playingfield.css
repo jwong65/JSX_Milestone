@@ -8,3 +8,8 @@
     margin: auto;
     border: 1px solid orange
 }
+.gameinfo{
+    border: 1px solid palegreen;
+    margin: auto;
+    width: 90vw;
+}

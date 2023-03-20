@@ -3,9 +3,9 @@
 AEA595
 AE8C71
 9A6560 Palette Colors */
-
-body{
+.background{
     background-color: #9BB2A2;
+    viewport-fit: ;
 }
 .oppinfo, .playerinfo, .gameinfo{
     height: 200px;
@@ -14,6 +14,9 @@ body{
     background-color:beige;
     z-index: 0;
     text-align: center;
+}
+.gameinfo {
+    background-color: beige;
 }
 .oppinfo{
     left: 20px;
