@@ -5,6 +5,7 @@ import PlayerInfo from '../PlayerInfo'
 import NavigationBar from '../NavigationBar'
 import OpponentInfo from '../OpponentInfo'
 
+import "../../CSS/playingfield.css"
 
 export default function Game() {
   return (
