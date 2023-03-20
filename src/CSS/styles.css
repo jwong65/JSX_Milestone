@@ -7,7 +7,7 @@ AE8C71
 body{
     background-color: #9BB2A2;
 }
-.oppinfo, .playerinfo{
+.oppinfo, .playerinfo, .gameinfo{
     height: 200px;
     width: 200px;
     border: 1px solid black;
