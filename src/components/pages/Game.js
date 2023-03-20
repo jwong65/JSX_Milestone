@@ -3,14 +3,20 @@ import React from 'react'
 import Hand from '../Hand'
 import PlayerInfo from '../PlayerInfo'
 import NavigationBar from '../NavigationBar'
+import OpponentInfo from '../OpponentInfo'
 
 
 export default function Game() {
   return (
     <div>    
         <NavigationBar />
-        <PlayerInfo />
-        <Hand />
+        <div className='opp'>
+          <OpponentInfo />
+        </div>
+        <div className='player'>
+          <PlayerInfo />
+          <Hand />
+        </div>
     </div>
   )
 }

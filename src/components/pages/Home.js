@@ -19,7 +19,7 @@ export default function Home() {
         <Card style={{width: '30em'}} className='card'>
           <Card.Img />
           <Card.Title>Precursor Project</Card.Title>
-          <Card.Text>This card project was developed using basic javascript, HTML and CSS. This project is the precursor to the current project. Currently trying to port the basics over into this react-app </Card.Text>
+          <Card.Text>This card project was developed using basic JavaScript, HTML and CSS. This project is the precursor to the current project. Currently trying to port the basics over into this react-app </Card.Text>
           <Card.Text>Deployment was done with GitHub Pages</Card.Text>
           <div>
             <Button style ={{width:'50%'}} href='https://github.com/jwong65/Milestone-Project-1' variant='primary'>Repository</Button>
