@@ -1,7 +1,13 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom'
+import NavigationBar from '../NavigationBar'
+
 export default function Home() {
   return (
-    <div>Home</div>
+    <>
+      <NavigationBar />
+      <div>Home</div>
+    </>
   )
 }
