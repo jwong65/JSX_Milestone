@@ -13,7 +13,7 @@ export default function Home() {
         <Card.Img variant='top' />
         <Card.Title>Repository</Card.Title>
         <Card.Text>Placeholder text</Card.Text>
-        <Button variant='primary'>Repository</Button>
+        <Button href='https://github.com/jwong65/JSX_Milestone' variant='primary'>Repository</Button>
       </Card>
       <div>Home</div>
     </>
