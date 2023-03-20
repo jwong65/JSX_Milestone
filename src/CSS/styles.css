@@ -20,8 +20,8 @@ body{
     position: relative;
 }
 .playerinfo{
-    left: 1150px;
     position: relative;
+    left: 90%
 }
 .health{
     border: 1px solid black;
