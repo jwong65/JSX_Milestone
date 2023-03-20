@@ -1,5 +1,4 @@
 import './CSS/styles.css';
-import NavigationBar from './components/NavigationBar';
 
 //Importing the Pages
 import Home from './components/pages/Home';
