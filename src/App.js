@@ -21,5 +21,16 @@ function App() {
   </div>
   );
 }
+// Example for redirect
+{/* <Route
+path="about"
+element={
+  shouldRedirect ? (
+    <Navigate replace to="/home" />
+  ) : (
+    <About />
+  )
+}
+/> */}
 
 export default App;

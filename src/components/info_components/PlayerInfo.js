@@ -1,7 +1,7 @@
 import React from 'react'
-import Health from './Health'
+import Health from '../Health'
 
-import '../CSS/styles.css'
+import '../../CSS/styles.css'
 
 export default function PlayerInfo() {
   return (

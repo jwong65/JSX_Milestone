@@ -18,11 +18,12 @@ export default function Home() {
         </Card>
         <Card style={{width: '30em'}} className='card'>
           <Card.Img />
-          <Card.Title>Previous Project</Card.Title>
-          <Card.Text>More Placeholder text</Card.Text>
+          <Card.Title>Precursor Project</Card.Title>
+          <Card.Text>This card project was developed using basic JavaScript, HTML and CSS. This project is the precursor to the current project. Currently trying to port the basics over into this react-app </Card.Text>
+          <Card.Text>Deployment was done with GitHub Pages</Card.Text>
           <div>
-            <Button style ={{width:'50%'}} href='' variant='info'>New Buttons</Button>
-            <Button style={{width:'50%'}}href='' variant='danger'>Second Button</Button>
+            <Button style ={{width:'50%'}} href='https://github.com/jwong65/Milestone-Project-1' variant='primary'>Repository</Button>
+            <Button style={{width:'50%'}}href='https://jwong65.github.io/Milestone-Project-1/' variant='info'>Deployment</Button>
           </div> 
         </Card>
       </div>
