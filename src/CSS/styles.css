@@ -5,9 +5,9 @@ AE8C71
 9A6560 Palette Colors */
 .background{
     background-color: #9BB2A2;
-    viewport-fit: ;
+    
 }
-.oppinfo, .playerinfo, .gameinfo{
+.oppinfo, .playerinfo{
     height: 200px;
     width: 200px;
     border: 1px solid black;
@@ -15,8 +15,11 @@ AE8C71
     z-index: 0;
     text-align: center;
 }
-.gameinfo {
+.infoplay{
+    width: 60vw;
     background-color: beige;
+    height: 15vh;
+    margin: auto;
 }
 .oppinfo{
     left: 20px;

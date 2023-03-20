@@ -4,6 +4,8 @@ import '../../CSS/styles.css'
 
 export default function GameInfo() {
   return (
-    <div>GameInfo</div>
+    <div className='infoplay'>
+        GameInfo
+    </div>
   )
 }
