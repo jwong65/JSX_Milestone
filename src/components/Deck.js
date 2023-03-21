@@ -8,7 +8,7 @@ export default function Deck() {
     const [deck, setDeck] = useState([])
     const popoverLeft = (
         <Popover id="popover-positioned-left" title="Popover left">
-          <strong>Holy guacamole!</strong> Check this info.
+          <strong>This is your deck!</strong> <br/> There are {deck.length} cards in the deck.
         </Popover>
       );
   return (
