@@ -4,7 +4,7 @@ import '../CSS/card.css'
 import { useState } from 'react'
 
 export default function Deck() {
-    const [deck, setDeckSize] = useState([])
+    const [deck, setDeck] = useState([])
   return (
     <div>
         <img src={require('../assets/cardBorder.jpg')} className='deck' />
