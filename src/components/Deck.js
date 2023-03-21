@@ -13,7 +13,6 @@ export default function Deck() {
       );
   return (
     <div>
-    
         <OverlayTrigger trigger={['hover','hover']} placement='left' overlay={popoverLeft}>
             <img src={require('../assets/WoodBack.png')} className='deck' />
         </OverlayTrigger>

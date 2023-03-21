@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 // Importing react router dom
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Card from './components/Card';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/game' element={<Game />} />
         <Route path='/sources' element={<Attribution />} />
+        <Route path='/test' element={<Card />} />
       </Routes>
     </Router>
   </div>
