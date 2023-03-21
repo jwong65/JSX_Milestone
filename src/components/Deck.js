@@ -11,7 +11,6 @@ export default function Deck() {
     for (let i=0; i<deckArray.length; i++){
       deck.push(deckArray[i])
     }
-    console.log("This is the deck: ", deck)
     const popoverLeft = (
         <Popover id="popover-positioned-left" title="Popover left">
           <strong>This is your deck!</strong> <br/> There are {deck.length} cards in the deck.

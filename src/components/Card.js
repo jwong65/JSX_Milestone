@@ -27,9 +27,6 @@ objectToArray(card4, deckArray)
 objectToArray(card5, deckArray)
 objectToArray(card6, deckArray)
 
-console.log(deckArray)
-console.log("This is the deck size", deckArray.length)
-
 export default function Card() {
    
   return (
