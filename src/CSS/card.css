@@ -3,9 +3,12 @@
     margin: auto;
 }
 .deck{
-    position: relative;
+    position: absolute;
     margin: auto;
     height: 125px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .centered{
     position: absolute;
