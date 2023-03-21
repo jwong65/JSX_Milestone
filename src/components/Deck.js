@@ -4,10 +4,14 @@ import '../CSS/card.css'
 import { useState } from 'react'
 import { Popover, OverlayTrigger } from 'react-bootstrap'
 
-import Card, {card1} from './Card'
+import Card, { deckArray} from './Card'
 export default function Deck() {
-    const [deck] = useState([])
-    deck.push(card1)
+  const [deck] = useState([])
+  // For loop to push in the inital deck
+    for (let i=0; i<deckArray.length; i++){
+      deck.push(deckArray[i])
+    }
+    console.log("This is the deck: ", deck)
     const popoverLeft = (
         <Popover id="popover-positioned-left" title="Popover left">
           <strong>This is your deck!</strong> <br/> There are {deck.length} cards in the deck.
