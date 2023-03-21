@@ -15,7 +15,10 @@
     background-color: #afe0ceff
     /* All colors are placeholder subject to change */
 }
-
+button:hover{
+    color: #afe0ceff;
+    background-color: #0d1321ff;
+}
 /* --rich-black: #0d1321ff;
 --linen: #ffeddfff;
 --mindaro: #c5d86dff;
