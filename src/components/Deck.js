@@ -7,7 +7,7 @@ export default function Deck() {
     const [deck, setDeck] = useState([])
   return (
     <div>
-        <img src={require('../assets/cardBorder.jpg')} className='deck' />
+        <img src={require('../assets/WoodBack.png')} className='deck' />
         <div className='centered'>{deck.length}</div>
     </div>
   )
