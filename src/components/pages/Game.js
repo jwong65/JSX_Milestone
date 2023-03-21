@@ -9,7 +9,7 @@ import GameInfo from '../info_components/GameInfo'
 
 import "../../CSS/playingfield.css"
 import { useState, useEffect } from 'react'
-import { Navigate } from 'react-router-dom'
+// import { Navigate } from 'react-router-dom'
 
 export default function Game() {
   const [checkVictory, setState] = useState(false)

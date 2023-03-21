@@ -1,12 +1,12 @@
 import React from 'react'
-import Health from '../Health'
 
 import '../../CSS/styles.css'
+import OppHealth from '../OppHealth'
 
 export default function OpponentInfo() {
   return (
     <div className='oppinfo'>OpponentInfo
-        <Health />
+        <OppHealth />
     </div>
   )
 }
