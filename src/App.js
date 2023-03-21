@@ -3,6 +3,7 @@ import './CSS/styles.css';
 //Importing the Pages
 import Home from './components/pages/Home';
 import Game from './components/pages/Game';
+import Attribution from './components/pages/Attribution'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/game' element={<Game />} />
+        <Route path='/sources' element={<Attribution />} />
       </Routes>
     </Router>
   </div>

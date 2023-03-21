@@ -12,3 +12,4 @@ export default function Deck() {
     </div>
   )
 }
+// Considering using https://pixnio.com/ for free use images

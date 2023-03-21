@@ -17,6 +17,9 @@ export default function NavigationBar() {
               <LinkContainer to='/game'>
                 <Nav.Link>Game</Nav.Link>
               </LinkContainer>
+              <LinkContainer to='/sources'>
+                <Nav.Link>Attribution</Nav.Link>
+              </LinkContainer>
             </Nav>
         </Container>
     </Navbar>
