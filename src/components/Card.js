@@ -32,7 +32,6 @@ console.log("This is the deck size", deckArray.length)
 
 export default function Card() {
    
-    console.log(entries)
   return (
     <div>
         <h2>{card1.type}, {card1.value}, {card1.text}.</h2>
@@ -40,4 +39,4 @@ export default function Card() {
     </div>
   )
 }
-export {entries, deckArray}
+export {deckArray}
