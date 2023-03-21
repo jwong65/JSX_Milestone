@@ -6,11 +6,12 @@ function cardCreation(type, value, text, cardID){
     this.text = text
     this.cardID = cardID
 }
+const card1 = new cardCreation('heal', 5, 'This card will heal you for 5 health', '1')
+const card2 = new cardCreation('damage', 3, "This card does 3 damage to your opponent", '2')
+
 
 export default function Card() {
-    const card1 = new cardCreation('heal', 5, 'This card will heal you for 5 health', '1')
-    const card2 = new cardCreation('damage', 3, "This card does 3 damage to your opponent", '2')
-
+   
     const entries = Object.entries(card1)
     console.log(entries)
   return (
@@ -21,3 +22,4 @@ export default function Card() {
     </div>
   )
 }
+export {card1}

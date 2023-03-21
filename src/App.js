@@ -25,8 +25,9 @@ function App() {
   </div>
   );
 }
+
 // Example for redirect
-{/* <Route
+/* <Route
 path="about"
 element={
   shouldRedirect ? (
@@ -35,6 +36,6 @@ element={
     <About />
   )
 }
-/> */}
+/> */
 
 export default App;
