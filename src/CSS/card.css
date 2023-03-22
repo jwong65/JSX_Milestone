@@ -17,3 +17,9 @@
     transform: translate(-50%, -50%);
 
 }
+.drawbutton{
+    position: absolute;
+    left: 25%;
+    bottom: 0%;
+    width: 75%;
+}

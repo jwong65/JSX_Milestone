@@ -2,7 +2,7 @@ import React from 'react'
 import '../CSS/card.css'
 
 import { useState } from 'react'
-import { Popover, OverlayTrigger } from 'react-bootstrap'
+import { Popover, OverlayTrigger, Button } from 'react-bootstrap'
 
 import Card, { deckArray} from './Card'
 export default function Deck() {
@@ -23,6 +23,8 @@ export default function Deck() {
             <img src={require('../assets/WoodBack.png')} alt='Back of Deck'className='deck' />
         </OverlayTrigger>
         <div className='centered'>{deck.length}</div>
+        <Button style ={{width:'50%'}} href='' variant='light' className='drawbutton'>Draw</Button>
+
     </div>
   )
 }
