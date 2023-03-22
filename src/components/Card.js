@@ -1,4 +1,5 @@
 import React from 'react'
+import '../assets/WoodBack.png'
 
 function cardCreation(type, value, text, cardID){
     this.type = type
@@ -6,6 +7,9 @@ function cardCreation(type, value, text, cardID){
     this.text = text
     this.cardID = cardID
 }
+const newCard = document.createElement('img')
+newCard.src ='../assets/WoodBack.png'
+
 const card1 = new cardCreation('heal', 5, 'This card will heal you for 5 health', '1')
 const card2 = new cardCreation('damage', 3, "This card does 3 damage to your opponent", '2')
 const card3 = new cardCreation('damage', 3, "This card will do damage equal to the number of cards played this turn, (including this one) times 3", '3')
@@ -36,4 +40,4 @@ export default function Card() {
     </div>
   )
 }
-export {deckArray}
+export {deckArray, newCard}
