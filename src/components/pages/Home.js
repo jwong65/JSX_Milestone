@@ -12,8 +12,9 @@ export default function Home() {
       <div className='card text-center' style={{width:'1000px'}}>
         <Card style={{width:'30em'}} className='card-block'>
           <Card.Img variant='top' />
-          <Card.Title>Repository</Card.Title>
-          <Card.Text>Placeholder text</Card.Text>
+          <Card.Title>GitHub Repository</Card.Title>
+          <Card.Text>Currently a work in progress. <br/> 
+          <b>Any</b> suggestions would be greatly appreciated. <br /> Try to contact me through GitHub concerning the project. </Card.Text>
           <Button href='https://github.com/jwong65/JSX_Milestone' variant='primary'>Repository</Button>
         </Card>
         <Card style={{width: '30em'}} className='card'>
