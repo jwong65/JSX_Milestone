@@ -27,8 +27,8 @@ AE8C71
 }
 .playerinfo{
     position: relative;
-    left: 90%;
-    top: 40%
+    left: 80%;  
+    margin: 10px;
 }
 .health{
     border: 1px solid black;
