@@ -7,13 +7,15 @@ function addCardtoHand(){
   render()
 }
 
-let newImage = document.createElement('img')
-newImage.src ='assets/cardBorder.jpg'
 
 export default function Hand() {
+// let newImage = document.createElement('img')
+// newImage.src ='assets/cardBorder.jpg'
   
   return (
-    <div className='hand'></div>
+    <div className='hand'>
+        <img src={ require('../assets/WoodBack.png')} height={'75px'} />
+    </div>
   )
 }
 
