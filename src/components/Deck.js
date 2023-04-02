@@ -25,8 +25,7 @@ export default function Deck() {
             <img src={require('../assets/WoodBack.png')} alt='Back of Deck'className='deck' />
         </OverlayTrigger>
         <div className='centered'>{deck.length}</div>
-        <Button style ={{width:'50%'}} onClick={()=>addCardtoHand()} variant='light' className='drawbutton'>Draw</Button>
-
+       
     </div>
   )
 }

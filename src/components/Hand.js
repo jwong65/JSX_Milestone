@@ -2,29 +2,27 @@ import React from 'react'
 import '../CSS/styles.css'
 
 import { useState } from 'react'
-import { render } from 'react-dom'
+// import { render } from 'react-dom'
 
-
-function addCardtoHand(){
-  // document.querySelector('.hand').appendChild()
-  render(
-    <img src={ require('../assets/WoodBack.png')} height={'75px'} />, document.getElementById('hands')
-      )
- 
-}
-
+const cardsImg =  <img src={ require('../assets/WoodBack.png')} height={'75px'} alt='Card Back' />
 
 export default function Hand() {
 // let newImage = document.createElement('img')
 // newImage.src ='assets/cardBorder.jpg'
 
-const [cardsInHand, setCards] = useState(0)
+const [cardsInHand, setCards] = useState([1,2,3])
+function addCards(){
+  setCards([...cardsInHand, cardsImg])
+}
 
   return (
     <div className='hand' id='hands'>
-        {/* <img src={ require('../assets/WoodBack.png')} height={'75px'} /> */}
+        {cardsInHand.map((cardsImg, index)=>(
+          <div key={index}>
+            <img src={require('../assets/WoodBack.png')} height={'75px'} />
+          </div>
+        ))}
+        <button onClick={addCards}>Draw</button>
     </div>
   )
 }
-
-export {addCardtoHand}
