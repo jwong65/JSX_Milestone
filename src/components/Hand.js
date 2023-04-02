@@ -2,7 +2,8 @@ import React from 'react'
 import '../CSS/styles.css'
 
 import { useState } from 'react'
-// import { render } from 'react-dom'
+import { OverlayTrigger } from 'react-bootstrap'
+import { Popover } from 'react-bootstrap'
 
 const cardsImg =  <img src={ require('../assets/WoodBack.png')} height={'75px'} alt='Card Back' />
 
@@ -14,12 +15,20 @@ const [cardsInHand, setCards] = useState([1,2,3])
 function addCards(){
   setCards([...cardsInHand, cardsImg])
 }
+const popoverUp = (
+  <Popover id="popover-positioned-top" title="Popover Up">
+    Placeholder Text for each card.
+  </Popover>
+);
 
   return (
     <div className='hand' id='hands'>
-        {cardsInHand.map((cardsImg, index)=>(
+        {cardsInHand.map((index)=>(
           <div key={index}>
-            <img src={require('../assets/WoodBack.png')} height={'75px'} />
+            {/* Considering onMouseOver={} or OverlayTrigger */}
+            <OverlayTrigger trigger={['hover','hover']} placement='top' overlay={popoverUp}>
+            <img src={require('../assets/WoodBack.png')} height={'75px'}  />
+            </OverlayTrigger>
           </div>
         ))}
         <button onClick={addCards}>Draw</button>
