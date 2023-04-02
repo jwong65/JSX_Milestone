@@ -5,7 +5,7 @@ AE8C71
 9A6560 Palette Colors */
 .background{
     background-color: #9BB2A2;
-    
+    height: 95vh;
 }
 .oppinfo, .playerinfo{
     height: 200px;
