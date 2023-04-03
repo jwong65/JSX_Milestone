@@ -6,6 +6,7 @@ import '../../CSS/card.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import Footer from '../Footer'
 
 
 export default function Home() {
@@ -32,7 +33,7 @@ export default function Home() {
           </div> 
         </Card>
       </div>
-      <footer> <a href='https://www.linkedin.com/in/jason-wong-954193144'><FontAwesomeIcon icon={faLinkedin} size='6x' /> </a></footer>
+      <Footer />
     </>
   )
 }
