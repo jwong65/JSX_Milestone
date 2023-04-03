@@ -17,6 +17,7 @@ AE8C71
 }
 .infoplay{
     width: 60vw;
+    text-align: center;
     background-color: beige;
     height: 15vh;
     margin: auto;
