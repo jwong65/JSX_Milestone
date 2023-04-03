@@ -29,7 +29,7 @@ const popoverUp = (
           <div key={index}>
             {/* Considering onMouseOver={} or OverlayTrigger */}
             <OverlayTrigger trigger={['hover','hover']} placement='top' overlay={popoverUp}>
-            <img src={require('../assets/WoodBack.png')} height={'75px'}  />
+            <img src={require('../assets/WoodBack.png')} height={'75px'} alt='Cards in hand' />
             </OverlayTrigger>
           </div>
         ))}
