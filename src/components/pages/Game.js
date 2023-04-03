@@ -9,6 +9,7 @@ import GameInfo from '../info_components/GameInfo'
 
 import "../../CSS/playingfield.css"
 import { useState, useEffect } from 'react'
+import OppHand from '../OppHand'
 // import { Navigate } from 'react-router-dom'
 
 export default function Game() {
@@ -22,6 +23,7 @@ export default function Game() {
         <NavigationBar />
         <div className='background'>
           <div className='opp'>
+            <OppHand />
             <OpponentInfo />
           </div>
           <div className='gameinfo'>
