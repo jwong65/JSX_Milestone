@@ -2,6 +2,7 @@ import React from 'react'
 import NavigationBar from '../NavigationBar'
 
 import '../../CSS/attribution.css'
+import Footer from '../Footer'
 
 export default function Attribution() {
   return (
@@ -14,7 +15,7 @@ export default function Attribution() {
             <h4>LinkedIn Icon provided by FontAwesome</h4>
             <p>Link to icon: <a href='https://fontawesome.com/icons/linkedin?f=brands&s=solid'>Link</a></p>
         </div>
-        
+        <Footer />
     </>
   )
 }
