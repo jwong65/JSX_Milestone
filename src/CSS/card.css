@@ -23,3 +23,7 @@
     bottom: 0%;
     width: 75%;
 }
+footer {
+    display: block;
+    text-align: center;
+  }

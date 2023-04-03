@@ -4,6 +4,9 @@ import NavigationBar from '../NavigationBar'
 import { Card, Button } from 'react-bootstrap'
 import '../../CSS/card.css'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+
 
 export default function Home() {
   return (
@@ -25,9 +28,15 @@ export default function Home() {
           <div>
             <Button style ={{width:'50%'}} href='https://github.com/jwong65/Milestone-Project-1' variant='primary'>Repository</Button>
             <Button style={{width:'50%'}}href='https://jwong65.github.io/Milestone-Project-1/' variant='info'>Deployment</Button>
+            
           </div> 
         </Card>
       </div>
+      <footer> <a href='https://www.linkedin.com/in/jason-wong-954193144'><FontAwesomeIcon icon={faLinkedin} size='6x' /> </a></footer>
     </>
   )
 }
+
+
+
+
