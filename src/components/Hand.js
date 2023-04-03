@@ -4,6 +4,7 @@ import '../CSS/styles.css'
 import { useState } from 'react'
 import { OverlayTrigger } from 'react-bootstrap'
 import { Popover } from 'react-bootstrap'
+import { deckArray } from './Card'
 
 const cardsImg =  <img src={ require('../assets/WoodBack.png')} height={'75px'} alt='Card Back' />
 
@@ -14,6 +15,7 @@ export default function Hand() {
 const [cardsInHand, setCards] = useState([1,2,3])
 function addCards(){
   setCards([...cardsInHand, cardsImg])
+  let newDeckSize = deckArray.length()-1
 }
 const popoverUp = (
   <Popover id="popover-positioned-top" title="Popover Up">

@@ -7,7 +7,7 @@ import { Popover, OverlayTrigger } from 'react-bootstrap'
 import { deckArray } from './Card'
 
 export default function Deck() {
-  const [deck] = useState([])
+  const [deck, setDeck] = useState([])
   // For loop to push in the inital deck
     for (let i=0; i<deckArray.length; i++){
       deck.push(deckArray[i])
@@ -24,7 +24,6 @@ export default function Deck() {
             <img src={require('../assets/WoodBack.png')} alt='Back of Deck'className='deck' />
         </OverlayTrigger>
         <div className='centered'>{deck.length}</div>
-       
     </div>
   )
 }
