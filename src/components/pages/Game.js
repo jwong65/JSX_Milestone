@@ -10,8 +10,7 @@ import GameInfo from '../info_components/GameInfo'
 import "../../CSS/playingfield.css"
 import { useState, useEffect } from 'react'
 import OppHand from '../OppHand'
-// import { Navigate } from 'react-router-dom'
-import Footer from '../Footer'
+
 
 export default function Game() {
   const [checkVictory, setState] = useState(false)
@@ -37,7 +36,6 @@ export default function Game() {
             <button onClick={()=>setState(false)}>Set State to False </button>
           </div>
         </div>
-        <Footer />
     </div>
   )
 }

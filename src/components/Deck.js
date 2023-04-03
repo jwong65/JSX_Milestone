@@ -2,10 +2,9 @@ import React from 'react'
 import '../CSS/card.css'
 
 import { useState } from 'react'
-import { Popover, OverlayTrigger, Button } from 'react-bootstrap'
+import { Popover, OverlayTrigger } from 'react-bootstrap'
 
-import Card, { deckArray} from './Card'
-import { addCardtoHand } from './Hand'
+import { deckArray } from './Card'
 
 export default function Deck() {
   const [deck] = useState([])

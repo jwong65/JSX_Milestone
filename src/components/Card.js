@@ -16,6 +16,7 @@ const card5 = new cardCreation('draw', 1 , "You can draw two cards.", '5')
 const card6 = new cardCreation('damage', null, "This card does damage equal to the number of cards you're holding.", '6')
 
 const entries = Object.entries(card1)
+console.log(entries)
 var deckArray =[]
 
 function objectToArray(object, array){
