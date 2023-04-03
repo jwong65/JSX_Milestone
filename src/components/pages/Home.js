@@ -4,8 +4,6 @@ import NavigationBar from '../NavigationBar'
 import { Card, Button } from 'react-bootstrap'
 import '../../CSS/card.css'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Footer from '../Footer'
 
 
