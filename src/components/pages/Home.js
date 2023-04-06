@@ -17,6 +17,7 @@ export default function Home() {
           <Card.Title>GitHub Repository</Card.Title>
           <Card.Text>Currently a work in progress. <br/> 
           <b>Any</b> suggestions would be greatly appreciated. <br /> Try to contact me through GitHub concerning the project. </Card.Text>
+          <Card.Text> Deployment was done with Vercel. </Card.Text>
           <Button href='https://github.com/jwong65/JSX_Milestone' variant='primary'>Repository</Button>
         </Card>
         <Card style={{width: '30em'}} className='card'>
