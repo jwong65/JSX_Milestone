@@ -31,6 +31,16 @@ export default function Home() {
             
           </div> 
         </Card>
+        <Card style={{width:'30em'}} className='card-block'>
+          <Card.Img />
+          <Card.Title>Web Sbrite Canvas Game</Card.Title>
+          <Card.Text>This JavaScript project was used to help learn the Canvas element. </Card.Text>
+          <Card.Text>Deployment was done with GitHub Pages</Card.Text>
+          <div>
+            <Button style={{width:'50%'}} href='https://github.com/jwong65/WebGame' variant='primary'>Repository and Resources</Button>
+            <Button style={{width:'50%'}} href='https://jwong65.github.io/WebGame/' variant='info'>Deployment</Button>
+          </div>
+        </Card>
       </div>
       <Footer />
     </>
