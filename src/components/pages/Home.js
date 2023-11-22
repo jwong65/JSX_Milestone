@@ -33,7 +33,7 @@ export default function Home() {
         </Card>
         <Card style={{width:'30em'}} className='card-block'>
           <Card.Img />
-          <Card.Title>Web Sbrite Canvas Game</Card.Title>
+          <Card.Title>Web Sprite Canvas Game</Card.Title>
           <Card.Text>This JavaScript project was used to help learn the Canvas element. </Card.Text>
           <Card.Text>Deployment was done with GitHub Pages</Card.Text>
           <div>
