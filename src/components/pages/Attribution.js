@@ -16,8 +16,8 @@ export default function Attribution() {
             <p>Link to icon: <a href='https://fontawesome.com/icons/linkedin?f=brands&s=solid'>Link</a></p>
         </div>
         <div>
-          <h4>Sprites were found on <a href='https://craftpix.net/'></a>Craftpix.net</h4>
-          <h4>Background image was also found on<a href='https://free-game-assets.itch.io/free-summer-pixel-art-backgrounds'>free-game-assets.itch.io</a></h4>
+          <h4>Sprites were found on <a href='https://craftpix.net/'>Craftpix.net</a></h4>
+          <h4>Background image was also found on <a href='https://free-game-assets.itch.io/free-summer-pixel-art-backgrounds'>free-game-assets.itch.io</a></h4>
         </div>
         <Footer />
     </>
